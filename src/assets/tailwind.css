@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+button,
+[type='submit'] {
+  @apply bg-btnBase;
+}
+
+button,
+[type='cancel'] {
+  @apply flex items-center;
+}
+
+@tailwind utilities;
